@@ -1,7 +1,7 @@
 #!/bin/sh
 #secure-ssh.sh
 
-#author gmcyber
+#author JoeyTaubert
 
 #creates a new ssh user using $1 parameter
  
