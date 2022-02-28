@@ -1,0 +1,9 @@
+[nginx]
+ansible01-joey
+[webmin]
+ansible02-joey
+[windows]
+mgmt01-joey
+wks01-joey
+[windows:vars]
+ansible_shell_type=powershell

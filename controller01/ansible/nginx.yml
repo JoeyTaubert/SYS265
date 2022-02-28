@@ -1,0 +1,9 @@
+---
+- name: nginx SYS265
+  hosts: nginx
+  become: true
+  vars:
+    install_utilities: false
+    firewalld_enable: true
+  roles:
+  - geerlingguy.nginx
